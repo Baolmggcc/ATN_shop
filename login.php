@@ -29,10 +29,17 @@ if(isset($_POST['btnLogin'])){
               header("Location: index.php"); // Điều hướng đến trang người dùng
           }
       } else {
-          echo "Something wrong with your info <br>";
+
+        echo "<script>
+       alert('Something wrong with your info);
+       </script>";
+
       }
   } else {
-      echo "Please enter your info";
+
+    echo "<script>
+       alert('Please enter your info');
+       </script>";
   }
 }
 
