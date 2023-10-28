@@ -23,6 +23,7 @@
             <thead>
                 <tr>
                     <th><strong>Product ID</strong></th>
+                    <th><strong>Store ID</strong></th>
                     <th><strong>Product Name</strong></th>
                     <th><strong>Category ID</strong></th>
                     <th><strong>Supplier ID</strong></th>
@@ -60,6 +61,7 @@
        ?>
         <tr>
               <td ><?php echo $row["productid"]; ?></td>
+              <td><?php echo $row["storeid"];  ?></td>
               <td><?php echo $row["productname"];  ?></td>
               <td><?php echo $row["categoryid"]; ?></td>
               <td ><?php echo $row["supplierid"]; ?></td>
