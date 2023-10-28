@@ -84,6 +84,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
 
                 <div class="form-outline mb-4">
+                  <label for="storeid">STORE ID</label> 
+                  <input id="sotreid" name="storeid" placeholder="STORE ID" class="form-control input-md" value="<?= $row['storeid'] ?>" required type="text">
+                </div>
+
+                <div class="form-outline mb-4">
                   <label for="cateloryid">CATEGORY ID</label> 
                   <input id="categoryid" name="categoryid" placeholder="CATEGORY ID" class="form-control input-md" value="<?= $row['categoryid'] ?>" required type="text">
                 </div>
