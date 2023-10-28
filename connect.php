@@ -7,9 +7,9 @@ class connect{
 
 	public function __construct(){
 	 $this->server = "cis9cbtgerlk68wl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-	 $this->usernames ="vsplab2efsx7g5e1";
-	 $this->password ="bbxu6nvopv53xqgx";
-	 $this->dbname ="p1z2v980ta74antp";	
+	 $this->usernames ="qssy6e0ly13vsahn";
+	 $this->password ="myfvnv0c1f7ob1g6";
+	 $this->dbname ="enk4hwnac3ryq7vh";	
 	}	
 	//1 option:1
 	
